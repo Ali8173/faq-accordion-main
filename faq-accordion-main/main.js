@@ -28,17 +28,3 @@ accordion.forEach(function (accordion) {
     }
   });
 });
-
-/* 
-accordion.forEach()("click", function () {
-  const answerEl = this.parentElement.children[1];
-
-  if (answerEl.classList.contains("hidden")) {
-    answerEl.classList.remove("hidden");
-    answerEl.classList.add("show");
-  } else {
-    answerEl.classList.remove("show");
-    answerEl.classList.add("hidden");
-  }
-  console.log(this.parentElement.children[1].classList);
-}); */
